@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&display=swap');
+.containerHeader{
+    width: 100%;
+
+}
+.navbar{
+    max-width: 100%;
+    text-align: center;
+    background-color: #000000;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}
+.img{
+    background-image: url(../assets/background.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-color: #000000;
+    background-repeat: no-repeat
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px ;
+    margin-right: 10px;
+}
+input:focus{
+    outline: none;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media  (max-width: 813px ) {
+    input{
+        width: auto;
+    }
+}
+
+

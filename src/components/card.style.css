@@ -1,0 +1,12 @@
+.containerCard{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(61 0 0);
+    margin: 10px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.containerCard:hover{
+    transform: scale(1.04);
+}
